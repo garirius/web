@@ -1,6 +1,6 @@
 ALEPH = "September 13, 2012";
 
-colors = ["#2F2BAD", "#ad2bad", "#e42692", "#f71568"]
+coloringos = ["#2F2BAD", "#ad2bad", "#e42692", "#f71568"]
 function total(){
   d2 = Date.now();
   d1 = new Date(ALEPH);
@@ -91,12 +91,12 @@ function Proyecto(obj){
   this.textcolor = obj.textcolor;
   this.id = obj.id;
 
-  this.creaDiv = function(filas){
+  this.creaDiv = function(fila, filas){
     var nu = $("<div class='proj'></div>");
 
     var he = (65-5*(filas-1))/(filas);
-    var bg = this.color;
-    var tx = this.textcolor;
+    var bg = coloringos[fila];
+    var tx = white;
     nu.css({
       "background-color": bg,
       "width": this.calcWidth() + "%",
@@ -266,10 +266,7 @@ $.getJSON("proyectos/educacion.json", function(data){
     }
     //i ara, anem col.locant-ho tot
     for(i in projectibus){
-      var nu = projectibus[i].creaDiv(filas);
-      nu.css({
-        "background-color": colors[i]
-      });
+      var nu = projectibus[i].creaDiv(i,filas);
       papa.append(nu);
     }
 
