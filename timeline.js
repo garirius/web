@@ -88,15 +88,15 @@ function Proyecto(obj){
   Segment.call(this,obj);
   this.fila = 0;
   this.replacementIcon = obj.icono;
-  this.textcolor = obj.textcolor;
+  this.textcolor = "white";
   this.id = obj.id;
 
-  this.creaDiv = function(fila, filas){
+  this.creaDiv = function(filas){
     var nu = $("<div class='proj'></div>");
 
     var he = (65-5*(filas-1))/(filas);
-    var bg = coloringos[fila];
-    var tx = white;
+    var bg = coloringos[this.fila];
+    var tx = "white";
     nu.css({
       "background-color": bg,
       "width": this.calcWidth() + "%",
@@ -266,7 +266,7 @@ $.getJSON("proyectos/educacion.json", function(data){
     }
     //i ara, anem col.locant-ho tot
     for(i in projectibus){
-      var nu = projectibus[i].creaDiv(i,filas);
+      var nu = projectibus[i].creaDiv(filas);
       papa.append(nu);
     }
 
@@ -309,23 +309,23 @@ function responsiveTimeline(){
   }
 }
 
-// for(k=0; k<bolos.length;k++){
-//   var ele = bolos[k];
-//   var nu = document.createElement("DIV");
-//   nu.appendChild(document.createTextNode(""));
-//
-//   //ESTIL PER A LA PART DE PROJECTES
-//   nu.style.backgroundColor = ele.color;
-//   nu.style.width = ele.size;
-//   nu.style.height = ele.size;
-//   nu.style.display = "block";
-//   nu.style.position = "absolute";
-//   nu.style.zIndex = "3";
-//
-//   var x = Math.floor(30*Math.random()+50)
-//
-//   nu.style.top = x+"%";
-//   console.log(ele.getPos());
-//   nu.style.left = ele.getPos() + "%";
-//   papa.appendChild(nu);
-// }
+for(k=0; k<bolos.length;k++){
+  var ele = bolos[k];
+  var nu = document.createElement("DIV");
+  nu.appendChild(document.createTextNode(""));
+
+  //ESTIL PER A LA PART DE PROJECTES
+  nu.style.backgroundColor = "F7DB15";
+  nu.style.width = ele.size;
+  nu.style.height = ele.size;
+  nu.style.display = "block";
+  nu.style.position = "absolute";
+  nu.style.zIndex = "3";
+
+  var x = Math.floor(30*Math.random()+50)
+
+  nu.style.top = x+"%";
+  console.log(ele.getPos());
+  nu.style.left = ele.getPos() + "%";
+  papa.appendChild(nu);
+}
