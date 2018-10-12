@@ -333,3 +333,4 @@ $.getJSON("proyectos/bolos.json", function(data){
     papa.append(ele.creaDiv());
   }
 }
+}
