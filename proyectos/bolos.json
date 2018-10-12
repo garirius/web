@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Experimenta 2014",
+    "when":"March 30, 2014",
+    "id": "kappa",
+    "clase": "bolo"
+  },{
+    "name": "Experimenta 2015",
+    "when":"April 26, 2015",
+    "id": "kappa",
+    "clase": "bolo"
+  },{
+    "name": "Experimenta 2016",
+    "when":"April 24, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Semifinal Famelab 2016",
+    "when":"April 1, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "FECiTElx 2016",
+    "when": "April 29, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Setmana Cultural ETSEUV",
+    "when": "May 5, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Pint of Science CS 2016",
+    "when": "May 23, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Pint of Science VLC 2016",
+    "when": "May 25, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Pint of Science VLC 2017",
+    "when":"May 17, 2017",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "PhDay CNIC 2016",
+    "when": "November 11, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "CIB Valencia 2016",
+    "when": "February 7, 2017",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "ConBioPreVal 2016",
+    "when": "November 27, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Monòlegs científics: la ciència més divertida, la diversió més científica",
+    "when": "April 27, 2017",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Jornadas San Alberto Magno 2017",
+    "when": "November 15, 2017",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Sarah Science Truck con Arcadi Garcia - Órbita Laika",
+    "when": "December 10, 2017",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Órbita Laika T4E9: Sara Escudero - Orden",
+    "when": "December 10, 2017",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Entrevista infoUniversitat",
+    "when": "February 17, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  },{
+    "name": "Entrevista Espores",
+    "when": "April 29, 2016",
+    "id": "kappa",
+    "clase": ["bolo","video"]
+  }
+]

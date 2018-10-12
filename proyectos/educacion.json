@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Grado en Física",
+    "where": "Universitat de València",
+    "active": false,
+    "inicio": "September 13, 2012",
+    "fin": "September 26, 2016",
+    "bgcolor": "#323232",
+    "textcolors": {
+      "h1": "white",
+      "h2": "#eaeaea",
+      "h3": "#bbbbbb"
+    }
+  },{
+    "name": "Máster en Nuevas Tecnologías Electrónicas y Fotónicas",
+    "where": "Universidad Complutense de Madrid",
+    "active": false,
+    "inicio": "September 26, 2016",
+    "fin": "September 22, 2017",
+    "bgcolor":"#808080",
+    "textcolors": {
+      "h1": "white",
+      "h2": "#eaeaea",
+      "h3": "#bbbbbb"
+    }
+  },{
+    "name": "Doctorado en Microscopía de Hoja de Luz",
+    "where": "Universitat de València",
+    "active": true,
+    "inicio": "September 22, 2017",
+    "fin": "today",
+    "bgcolor": "#bbbbbb",
+    "textcolors": {
+      "h1": "black",
+      "h2": "#323232",
+      "h3": "white"
+    }
+  }
+]

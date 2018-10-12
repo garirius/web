@@ -1,0 +1,96 @@
+/*HOLIIII*/
+#navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #eaeaea;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    float:right;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #323232;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #70DBF4;
+    color: white;
+}
+
+#active > a, #active .dropdown:hover .dropbtn {
+  background-color: #DB2955;
+  color: white;
+}
+
+/* TEMA DROPDOWN */
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+    float: right;
+}
+
+.dropdown-content a {
+    font-size: 14pt;
+    color: #505050;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+#linkedin:hover {
+  color: white;
+  background-color: #0077b5;
+}
+
+#twitter:hover {
+  color: white;
+  background-color: #00aced;
+}
+
+#emilio:hover {
+  color: #f9f9f9;
+  background-color: #505050;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .material-icons {
+  font-size: 14pt;
+  position: relative;
+  top: 2pt;
+}
+
+#righto{
+  right: 0px;
+}
+
+#righto a{
+  text-align: right;
+}

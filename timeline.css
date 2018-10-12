@@ -1,0 +1,93 @@
+.edu{
+  position: absolute;
+  display: block;
+  height: 100%;
+  top: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.edu > h1 {
+  margin-bottom: 0px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Fredoka One", sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 10px;
+}
+
+.edu > h2 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.edu > h3 {
+  font-family: "Open Sans",  sans-serif;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.edu > span {
+  font-size: 3em;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 40%;
+}
+
+/* PER ALS MARCADORS D'ANYS */
+.ano {
+  position: absolute;
+  top: 0px;
+  height: 100vw;
+  width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.label{
+  position:absolute;
+  bottom: -10px;
+}
+
+#cont .annus > .label > p{
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 0px;
+}
+
+.annus {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+}
+
+ /* PROJECTES */
+
+.proj{
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.proj > span {
+  font-size:  3em;
+}
+
+.proj > h1 {
+  margin-left: 10px;
+}
+
+.proj:hover {
+  box-shadow: 7px 7px 20px black;
+}

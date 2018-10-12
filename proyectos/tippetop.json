@@ -1,0 +1,143 @@
+[
+  {
+    "name":"La óptica de una clara de huevo",
+    "tipo": "youtube",
+    "id": "PywBvGEIa8c",
+    "desc": "La óptica mola un huevo, y los huevos hay que verlos para creerlos. En este vídeo de Gastrofísica, le echamos un vistazo a la óptica tras el punto de nieve, que no es poca.",
+    "extra":{"disp": "pano"},
+    "when": "December 10, 2017",
+    "clase": "gastrofisica"
+  },{
+    "name": "Órbita Laika 46: Sara Escudero - Orden",
+    "tipo": "tve",
+    "id": "4361638",
+    "desc": "¡Nuestro Arcadi sale en un programa de Órbita Laika! ¡En la tele! Sólo cinco minutitos, ¡pero qué cinco minutitos!",
+    "extra": {"disp": "pano"},
+    "when": "December 10, 2017",
+    "clase": "colabo"
+  },{
+    "name": "Órbita Laika - Science Truck con Sarah Nichols",
+    "tipo": "youtube",
+    "id": "oXzUwhBpsG8",
+    "desc": "La entrevista completa que le hizo la siempre espléndida Sarah Nichols a nuestro Arcadi en Órbita Laika. ¡20 minutos de CENCIA y tonterías!",
+    "extra": {"disp": "pano"},
+    "when": "December 10, 2017",
+    "clase": "colabo"
+  },{
+    "name": "PIMPCIPIO INACTIVO - #homeopatia",
+    "tipo": "youtube",
+    "id": "mlvj7C9f-Ls",
+    "desc": "El MARAVILLOSO Y SEXI <a href='https://www.youtube.com/channel/UCd3RNj3Rb6hpVDbG_L9YZ3g' target='_blank'>El Físico Barbudo</a> ha creado esta MASTERPIS de trap homeopático, con el cameo de gente EXTUPENDA, incluyendo nuestro propio Arcadi.",
+    "extra": {"disp": "pano"},
+    "when": "October 2, 2017",
+    "clase": "colabo"
+  },{
+    "name": "Scenio Bilbao 2017: Sesión Youtuber",
+    "tipo": "eitb",
+    "id": "5086550",
+    "desc": "Scenio Bilbao 2017 fue el primer gran evento de nuevos formatos divulgativos en español, y nuestro Arcadi fue a representar a Tippe Top participando en un par de actividades en la sesión youtuber. ¡A disfrutar!",
+    "extra": {
+      "disp": "pano",
+      "clico": "<iframe style='width:100%;height:100%' scrolling='no' src='http://www.eitb.eus/es/get/multimedia/screenview/id/5086550/tipo/videos/' frameBorder='0' allowfullscreen></iframe>"
+    },
+    "when": "September 17, 2017",
+    "clase": "colabo"
+  },{
+    "name":"Baño María",
+    "tipo": "youtube",
+    "id": "ushxfqlK3WQ",
+    "desc": "¿Para qué sirve el baño María? ¿Cómo funciona? ¿Por qué se llama así? ¡Tantas preguntas y tan poco tiempo! Por suerte, las respondemos TODAS en menos de 4 minutos.",
+    "extra":{"disp": "pano"},
+    "when": "August 10, 2017",
+    "clase": "gastrofisica"
+  },{
+    "name":"Caramelo",
+    "tipo": "youtube",
+    "id": "J2Vkv5GQXww",
+    "extra":{"disp": "pano"},
+    "when": "March 17, 2017",
+    "clase": "gastrofisica"
+  },{
+    "name": "¿Sabes más Física que un estudiante de MIR? feat. Psiqetal",
+    "tipo": "youtube",
+    "id": "IuvYUPqAm5Q",
+    "extra": {"disp": "pano"},
+    "when": "September 21, 2016",
+    "clase": "colabo"
+  },{
+    "name": "¡Test Cruzado! ¿Cuánto sabe de Psiquiatría un Físico? ft. Arcadi",
+    "tipo": "youtube",
+    "id": "XWJz3fDWyUg",
+    "extra": {"disp": "pano"},
+    "when": "September 21, 2016",
+    "clase": "colabo"
+  },{
+    "name": "Errores, Eratóstenes y Viceversa",
+    "tipo": "youtube",
+    "id": "uRQ01RiKJYA",
+    "desc": "En pleno siglo XXI hay peña que todavía duda que la Tierra sea redonda. Eratóstenes lo calculó con una miaja de geometría hace 2000 años. Resumen: Eratóstenes es bastante puto amo. Además, hablamos sobre qué hacemos cuando hay errores a la hora de medir.",
+    "extra": {"disp": "pano"},
+    "when": "June 27, 2016",
+    "clase": "tippetop"
+  },{
+    "name": "¿Qué es la Ciencia? | Especial 10K - Wikiseba",
+    "tipo": "youtube",
+    "id": "Gf8RNYQGwwA",
+    "extra": {"disp": "pano"},
+    "when": "May 9, 2016",
+    "clase": "colabo"
+  },{
+    "name": "ANTARES - Cazaneutrinos",
+    "tipo": "youtube",
+    "id": "PFoUF4jl07s",
+    "extra": {"disp": "pano"},
+    "when": "December 22, 2015",
+    "clase": "tippetop"
+  },{
+    "name": "<span class='fa fa-music'></span>Relatividad<span class='fa fa-music'></span>",
+    "tipo": "youtube",
+    "id": "ffX3uFBphmE",
+    "extra": {"disp": "pano"},
+    "when": "November 25, 2015",
+    "clase": "tippetop"
+  },{
+    "name": "Física de la Cocina",
+    "tipo": "youtube",
+    "id": "VUlu2SgNYRI",
+    "extra": {"disp": "pano"},
+    "when": "March 24, 2015",
+    "clase": "tippetop"
+  },{
+    "name": "Artículo sobre Tippe Top en <i>El Periódico de Aquí</i>",
+    "tipo": "prensa",
+    "id": "http://www.elperiodicodeaqui.com/pdfs/18_7_14/turia.pdf",
+    "extra": {
+      "disp": "pano",
+      "showtype": "dual",
+      "alternate": "pdf",
+      "titular": "Un joven de Llíria explica Física a través de YouTube",
+      "subtitulo": "Pertenece al grupo de estudiantes Tippe Top Physics de la Universitat de València",
+      "rubrica": "C.N. - Llíria",
+      "fecha": "Viernes, 18 de julio al jueves 7 de agosto de 2014",
+      "texto": "El mundo de la Física es muy complicado para muchos, por no decir imposible de entender. Siempre tenemos algún que otro concepto más o menos claro, pero nunca sabemos a ciencia cierta de qué manera se aplica o qué extraña teoría podría explicar. Pero lo que tal vez la mayoría desconozca es que la Física está presente en todas las parcelas de nuestra vida. Cuando circulamos a 120 km/h por una autopista, la velocidad a la que conducimos, la fuerza del viento y unos cuantos elementos más, si los metiésemos todos en una complicada fórmula matemática, seguramente adiviniaríamos a qué hora exacta llegaríamos a nuestro destino. Como hemos dicho antes, todos estos conceptos nos resultan tan complicados que las fuerzas centrífugas, centrípetas y demás las dejamos olvidadas en el cajón de la memoria para no usarlas jamás. Afortunadamente, no todos somos iguales y siempre hay, como en todos los sectores, un grupo de apasionados que sí quieren desvelar los secretos más enigmáticos del universo para hacernos la vida más fácil a los demás.\nY aquí es donde entran los Tippe Top Physics. Josep Gallego, un estudiante de Física, natural de Llíria de 20 años, pertenece a un grupo que se encarga de explicar, de manera práctica y sencilla y mediante vídeos de YouTube, al resto de mortales, muchas de las teorías físicas que se estudian en primero de carrera. Pero Josep no está solo en esta aventura. Le acompañan Miriam Cantos, Arcadi Garcia, Miguel Peidró, Nuria Pérez, Silvia Pla, Victoria Sánchez bajo la supervisión de los profesores, Chantal Ferrer, Toni Font y Enric Valor, nieto del afamado escritor.\nLos Tippe Top Physics pertenecen al Programa de Innovación Educativa de la Universitat de València y recrean diversas teorías que enseñan sobre todo a jóvenes y adolescentes cómo funciona la Física de los primeros años de carrera. Ya tienen publicados un par de vídeos en su canal de YouTube (<a href='http://videos.tippetop.es' target='_blank'>Tippe Top Physics</a>) en los que explican, entre otras historias, el Efecto Doppler, que es el aparente cambio de frecuencia de una onda producida por el movimiento relativo de la fuente respecto a su observador, o el Momento Líneal que no es otra teoría que la que explica por qué vuela un cohete, entre otras. Los Tippe Top Physics ya están preparando el tercero de los vídeos y que hablará de la Termodinámica de la cocina porque, a la hora de preparar un sencillo y simple plato de lentejas lo que relamente se está produciendo dentro de la olla es un conjunto de teorías desconocidas para nosotros. Por eso la importancia de ver, en internet, las explicaciones de los Tippe Top Physics, para enterarnos de lo que pasa a nuestro alrededor y podamos saber en qué acciones cotidianas, sin darnos cuenta, aplicamos la Física.",
+      "imatges": ["imgs/article2014.jpg"],
+      "peus": ["Algunos de los Tippe Top Physics. //EPDA"]
+    },
+    "when": "July 18, 2014",
+    "clase": "colabo"
+  },{
+    "name":"Momento Lineal",
+    "tipo":"youtube",
+    "id":"V44hpwIX8vk",
+    "extra":{"disp": "pano"},
+    "when": "July 6, 2014",
+    "clase": "tippetop"
+  },{
+    "name":"Efecto Doppler",
+    "tipo":"youtube",
+    "id":"OxtH4o8KlcY",
+    "extra":{"disp": "pano"},
+    "when":"May 9, 2014",
+    "clase": "tippetop"
+  }
+]

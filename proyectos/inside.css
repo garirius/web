@@ -1,0 +1,26 @@
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 3em;
+  color: #323232;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2em;
+  color: #a0a0a0;
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #323232;
+  text-indent: 2em;
+}
+
+#incandesc > div > *{
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  margin: 20px;
+}
