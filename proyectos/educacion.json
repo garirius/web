@@ -23,17 +23,5 @@
       "h2": "#eaeaea",
       "h3": "#bbbbbb"
     }
-  },{
-    "name": "Doctorado en Microscopía de Hoja de Luz",
-    "where": "Universitat de València",
-    "active": true,
-    "inicio": "September 22, 2017",
-    "fin": "today",
-    "bgcolor": "#bbbbbb",
-    "textcolors": {
-      "h1": "black",
-      "h2": "#323232",
-      "h3": "white"
-    }
   }
 ]

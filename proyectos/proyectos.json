@@ -4,45 +4,42 @@
     "active": true,
     "inicio": "May 9, 2014",
     "fin": "today",
-    "bgcolor":"#568EA3",
     "icono": "video-camera",
-    "textcolor": "white",
     "id": "tippetop"
   },{
     "name": "Metros por Segundo",
     "active": false,
     "inicio": "April 1, 2015",
     "fin": "April 21, 2015",
-    "bgcolor":"#F03C02",
     "icono": "pencil",
-    "textcolor": "white",
     "id": "mps"
   },{
     "name": "Incandesciencia",
     "active": false,
     "inicio": "June 14, 2015",
     "fin": "January 21, 2017",
-    "bgcolor":"#B4E1FF",
     "icono": "pencil",
-    "textcolor": "#F03C02",
     "id": "incandesc"
   },{
     "name": "MinutoDeCiencia",
     "active": true,
     "inicio": "November 1, 2016",
     "fin": "today",
-    "bgcolor":"#EAEAEA",
     "icono": "flask",
-    "textcolor": "#323232",
     "id": "mdciencia"
   },{
     "name": "MinuteEarth",
     "active": true,
     "inicio": "October 19, 2017",
     "fin": "today",
-    "bgcolor":"#7DDF64",
     "icono": "paw",
-    "textcolor": "#323232",
     "id": "minuteearth"
+  },{
+    "name": "El Aleph",
+    "active": true,
+    "inicio": "July 16, 2018",
+    "fin": "today",
+    "icono": "paw",
+    "id": "aleph"
   }
 ]

@@ -1,5 +1,6 @@
 ALEPH = "September 13, 2012";
 
+colors = ["#2F2BAD", "#ad2bad", "#e42692", "#f71568"]
 function total(){
   d2 = Date.now();
   d1 = new Date(ALEPH);
@@ -266,6 +267,9 @@ $.getJSON("proyectos/educacion.json", function(data){
     //i ara, anem col.locant-ho tot
     for(i in projectibus){
       var nu = projectibus[i].creaDiv(filas);
+      nu.css({
+        "background-color": colors[i]
+      });
       papa.append(nu);
     }
 
