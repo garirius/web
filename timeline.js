@@ -111,7 +111,7 @@ function Proyecto(obj){
       nu.css({
         "background-color": "white"
       });
-      nu.children("h1, h2").css("color","#f55eb1");
+      nu.children("h1, h2").css("color",bg);
     });
     nu.mouseleave(function(){
       nu.css({
@@ -181,7 +181,7 @@ Proyecto.prototype.constructor = Proyecto;
 function Puntual (obj){
   this.name = obj.name;
   this.when = obj.when;
-  this.color = "black";
+  this.color = "#F7DB15";
   this.size = "30px";
 
   this.getPos = function(){
@@ -193,7 +193,25 @@ function Puntual (obj){
 
     return 100*(d2-d1)/total();
   };
+
+  this.creaDiv = function(){
+    var nu = document.createElement("DIV");
+    nu.appendChild(document.createTextNode(""));
+
+    //ESTIL PER A LA PART DE PROJECTES
+    nu.style.backgroundColor = this.color;
+    nu.style.width = this.size;
+    nu.style.height = this.size;
+    nu.style.display = "block";
+    nu.style.position = "absolute";
+    nu.style.zIndex = "3";
+
+    var x = Math.floor(30*Math.random()+50)
+    nu.style.top = x+"%";
+    nu.style.left = this.getPos() + "%";
+  }
 }
+Puntual.prototype.constructor = Puntual;
 
 //Comencem a construir la pàgina. Partim pel div que ho engloba tot.
 var h = $(window).innerHeight()-$("#navul").height();
@@ -309,23 +327,9 @@ function responsiveTimeline(){
   }
 }
 
-for(k=0; k<bolos.length;k++){
-  var ele = bolos[k];
-  var nu = document.createElement("DIV");
-  nu.appendChild(document.createTextNode(""));
-
-  //ESTIL PER A LA PART DE PROJECTES
-  nu.style.backgroundColor = "F7DB15";
-  nu.style.width = ele.size;
-  nu.style.height = ele.size;
-  nu.style.display = "block";
-  nu.style.position = "absolute";
-  nu.style.zIndex = "3";
-
-  var x = Math.floor(30*Math.random()+50)
-
-  nu.style.top = x+"%";
-  console.log(ele.getPos());
-  nu.style.left = ele.getPos() + "%";
-  papa.appendChild(nu);
+$.getJSON("proyectos/bolos.json", function(data){
+  for(i in data){
+    var ele = new Puntual(data[i]);
+    papa.append(ele.creaDiv());
+  }
 }
