@@ -296,7 +296,7 @@ $.getJSON("proyectos/educacion.json", function(data){
       var ele = new Puntual(data[i]);
       papa.append(ele.creaDiv());
     }
-  }
+  });
 });
 
 function responsiveTimeline(){
