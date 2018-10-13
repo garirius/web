@@ -219,7 +219,7 @@ $("#cont").attr({
   "width": "100vw"
 });
 var papa = $(".restus");
-
+console.log("Patatuela");
 $.getJSON("proyectos/educacion.json", function(data){
   for(i in data){
     var ele = new Etapa(data[i]);
