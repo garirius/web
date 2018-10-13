@@ -293,9 +293,13 @@ $.getJSON("proyectos/educacion.json", function(data){
 });
 
 $.getJSON("proyectos/bolos.json", function(data){
+  var bolos = [];
   for(i in data){
     var ele = new Puntual(data[i]);
-    papa.append(ele.creaDiv());
+    bolos.push(ele);
+  }
+  for(i in bolos){
+    $(".restus").append(ele.creaDiv());
   }
 });
 
