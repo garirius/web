@@ -290,6 +290,13 @@ $.getJSON("proyectos/educacion.json", function(data){
 
     responsiveTimeline();
   });
+
+  $.getJSON("proyectos/bolos.json", function(data){
+    for(i in data){
+      var ele = new Puntual(data[i]);
+      papa.append(ele.creaDiv());
+    }
+  }
 });
 
 function responsiveTimeline(){
@@ -325,12 +332,4 @@ function responsiveTimeline(){
       ele.children("h1").show();
     }
   }
-}
-
-$.getJSON("proyectos/bolos.json", function(data){
-  for(i in data){
-    var ele = new Puntual(data[i]);
-    papa.append(ele.creaDiv());
-  }
-}
 }
