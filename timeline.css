@@ -41,7 +41,7 @@
 .ano {
   position: absolute;
   top: 0px;
-  height: 100vw;
+  height: 100vh;
   width: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -74,7 +74,7 @@
   display: block;
   position: absolute;
   overflow: hidden;
-  z-index: 1;
+  z-index: 3;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
