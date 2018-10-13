@@ -204,7 +204,7 @@ function Puntual (obj){
     nu.style.height = this.size;
     nu.style.display = "block";
     nu.style.position = "absolute";
-    nu.style.zIndex = "3";
+    nu.style.zIndex = "4";
 
     var x = Math.floor(30*Math.random()+50)
     nu.style.top = x+"%";
@@ -288,20 +288,19 @@ $.getJSON("proyectos/educacion.json", function(data){
       papa.append(nu);
     }
 
+    $.getJSON("proyectos/bolos.json", function(data){
+      var bolos = [];
+      for(i in data){
+        var ele = new Puntual(data[i]);
+        bolos.push(ele);
+      }
+      for(i in bolos){
+        papa.append(ele.creaDiv());
+        console.log("holowisss");
+      }
+    });
     responsiveTimeline();
   });
-});
-
-$.getJSON("proyectos/bolos.json", function(data){
-  var bolos = [];
-  for(i in data){
-    var ele = new Puntual(data[i]);
-    bolos.push(ele);
-  }
-  for(i in bolos){
-    $(".restus").append(ele.creaDiv());
-    console.log("holowisss");
-  }
 });
 
 function responsiveTimeline(){
