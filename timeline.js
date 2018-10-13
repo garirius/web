@@ -300,6 +300,7 @@ $.getJSON("proyectos/bolos.json", function(data){
   }
   for(i in bolos){
     $(".restus").append(ele.creaDiv());
+    console.log("holowisss");
   }
 });
 
