@@ -5,7 +5,8 @@
     "inicio": "May 9, 2014",
     "fin": "today",
     "icono": "video-camera",
-    "id": "tippetop"
+    "id": "tippetop",
+    "brief": "<a href='https://www.linkedin.com/in/arcadi-garcia-i-rius-b49283ab/'>Tippe Top Physics "
   },{
     "name": "Metros por Segundo",
     "active": false,
