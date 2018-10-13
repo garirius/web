@@ -1,3 +1,9 @@
+p{
+  font-family: "Open Sans", sans-serif;
+  color: #323232;
+  font-size: 1em;
+}
+
 .latabla{
   display: block;
   width: 100%;
